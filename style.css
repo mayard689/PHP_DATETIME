@@ -1,0 +1,74 @@
+.present, .destination{
+   background:grey;
+    border: thin solid black;
+    display:flex;
+    flex-direction: column;
+    width:250px;
+    align-items: stretch;
+    padding:3px;
+}
+
+.destination{
+    color:orange;
+}
+
+.present{
+    color:green;
+}
+
+.dataBlock{
+    display:flex;
+    justify-content: space-around;
+}
+
+.data{
+    display:flex;
+    flex-direction: column;
+}
+
+.ckp, .ckd{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: lightgrey;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.ckp:checked {
+    background-color: green;
+}
+
+.ckd:checked {
+    background-color: orange;
+}
+
+.label{
+    color:white;
+    background-color: brown;
+    font-family: "DejaVu Sans";
+    font-size: 10px;
+    text-align: center;
+}
+
+.value{
+    background-color: black;
+    border:thin solid lightgrey;
+    font-family: "DejaVu Sans";
+    font-size: 20px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+p{
+    background-color: black;
+    color:white;
+    font-family: "DejaVu Sans";
+    font-size: 10px;
+    text-align: center;
+    align-self: center;
+    width: max-content;
+}
